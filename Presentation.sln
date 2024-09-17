@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Texts", "Texts", "{80BEB51D-B3C1-435A-8F2C-0C460EF30155}"
+	ProjectSection(SolutionItems) = preProject
+		texts\content-draft.md = texts\content-draft.md
+		texts\01 - about.md = texts\01 - about.md
+		texts\00 - about myself.md = texts\00 - about myself.md
+		texts\02 - on premature optimizations.md = texts\02 - on premature optimizations.md
+		texts\04 - storing secrets in source control.md = texts\04 - storing secrets in source control.md
+		texts\05 - common problem sources.md = texts\05 - common problem sources.md
+		texts\06 - about memory allocations.md = texts\06.00 - about memory allocations.md
+		texts\06.01 - strings.md = texts\06.01 - strings.md
+		
+		
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3BC9BBA9-196F-4C63-B979-47526C5726EC}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{4211E380-C559-4FE1-ACF5-B1097BAD3202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{014F7A41-AEB8-44BF-B08E-CDB23531CAB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4211E380-C559-4FE1-ACF5-B1097BAD3202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4211E380-C559-4FE1-ACF5-B1097BAD3202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4211E380-C559-4FE1-ACF5-B1097BAD3202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4211E380-C559-4FE1-ACF5-B1097BAD3202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014F7A41-AEB8-44BF-B08E-CDB23531CAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014F7A41-AEB8-44BF-B08E-CDB23531CAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014F7A41-AEB8-44BF-B08E-CDB23531CAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014F7A41-AEB8-44BF-B08E-CDB23531CAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4211E380-C559-4FE1-ACF5-B1097BAD3202} = {3BC9BBA9-196F-4C63-B979-47526C5726EC}
+		{014F7A41-AEB8-44BF-B08E-CDB23531CAB7} = {3BC9BBA9-196F-4C63-B979-47526C5726EC}
+	EndGlobalSection
+EndGlobal

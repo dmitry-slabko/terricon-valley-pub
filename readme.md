@@ -33,6 +33,8 @@ https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory
 
 https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests
 
+https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services
+
 
 ## Спор о "чистом коде"
 https://www.computerenhance.com/p/clean-code-horrible-performance

@@ -1,7 +1,6 @@
 # Полезные ссылки.
 
 ## Официальный блог .NET
-
 https://devblogs.microsoft.com/dotnet
 
 
@@ -27,6 +26,12 @@ https://learn.microsoft.com/en-us/dotnet/standard/threading/overview-of-synchron
 https://learn.microsoft.com/en-us/dotnet/standard/collections/thread-safe
 
 https://learn.microsoft.com/en-us/dotnet/standard/collections/thread-safe/when-to-use-a-thread-safe-collection
+
+
+## О вебе
+https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory
+
+https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests
 
 
 ## Спор о "чистом коде"
